@@ -40,6 +40,8 @@
 
 <!-- Header section selesai -->
 
+<!-- user account section mulai -->
+
 <div class="user-account">
     <section>
         <div id="close-account"><span>close</span></div>
@@ -75,10 +77,13 @@
     </section>
 </div>
 
+<!-- user account section selesai -->
+
+<!-- my orders section mulai -->
+
 <div class="my-orders">
     <section>
-
-        <div id="close-account"><span>close</span></div>
+        <div id="close-orders"><span>close</span></div>
 
         <h3 class="title"> my orders </h3>
 
@@ -90,11 +95,281 @@
             <p>payment method : <span>cash on delivery</span></p>
             <p>your orders : <span>pizza 01 $3/- x2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07 $2/- x 1</span></p>
             <p>total prize : <span>$11/-</span></p>
-            <p></p>
+            <p>payment status : <span style="color: var(--red);">pending</span></p>
         </div>
 
+        <div class="box">
+            <p>placed on : <span>14/07/2022</span></p>
+            <p>name : <span>Vincent</span></p>
+            <p>number : <span>1234567890</span></p>
+            <p>adddres : <span>Street no.123, building no.1, indonesia, kalimantan barat - 100101</span></p>
+            <p>payment method : <span>cash on delivery</span></p>
+            <p>your orders : <span>pizza 01 $3/- x2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07 $2/- x 1</span></p>
+            <p>total prize : <span>$11/-</span></p>
+            <p>payment status : <span style="color: var(--red);">pending</span></p>
+        </div>
     </section>
 </div>
+
+<!-- my orders section selesai -->
+
+<!-- shoppong chart section mulai -->
+
+<div class="shopping-chart">
+    <section>
+        <div id="close-cart"><span>close</span></div>
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="image/pizza-1.jpg" alt="">
+            <div class="content">
+                <p>Pizza-1 <span>( $3/- x2 )</span></p>
+            <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty" ></button>
+            </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="image/pizza-3.jpg" alt="">
+            <div class="content">
+                <p>Pizza-1 <span>( $2/- x1 )</span></p>
+            <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="image/pizza-6.jpg" alt="">
+            <div class="content">
+                <p>Pizza-1 <span>( $4/- x3 )</span></p>
+                <form action="" method="post">
+                    <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                    <button type="submit" class="fas fa-edit" name="update_qty"></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="image/pizza-7.jpg" alt="">
+            <div class="content">
+                <p>Pizza-1 <span>( $2/- x1 )</span></p>
+            <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+            </div>
+        </div>
+
+        <a href="#order" class="btn">order now</a>
+    </section>
+</div>
+
+<!-- shoppong chart section selesai -->
+
+<!-- home section mulai -->
+
+<div class="home-bg">
+
+    <section class="home" id="home">
+
+        <div class="slide-container">
+
+            <div class="slide active">
+                <div class="image">
+                    <img src="image/home-img-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>homemade Pepperoni Pizza</h3>
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+
+        <div class="slide">
+            <div class="image">
+                <img src="image/home-img-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Pizza With Mushrooms</h3>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="image">
+                <img src="image/home-img-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Mascarpone And Mushrooms</h3>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- home section selesai -->
+
+<!-- about section mulai -->
+
+<section class="about" id="about">
+
+    <h1 class="heading">about us</h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="image/about-1.svg" alt="">
+            <h3>made with love</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita aliquid sequi alias delectus ipsa amet perspiciatis, sed enim maiores, sint ex similique laboriosam voluptatum qui ut illo aut quasi.</p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+
+        <div class="box">
+            <img src="image/about-2.svg" alt="">
+            <h3>30 minutes delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita aliquid sequi alias delectus ipsa amet perspiciatis, sed enim maiores, sint ex similique laboriosam voluptatum qui ut illo aut quasi.</p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+
+        <div class="box">
+            <img src="image/about-3.svg" alt="">
+            <h3>share with friends</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita aliquid sequi alias delectus ipsa amet perspiciatis, sed enim maiores, sint ex similique laboriosam voluptatum qui ut illo aut quasi.</p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- about section selesai -->
+
+<!-- menu section mulai -->
+
+<section id="menu" class="menu">
+
+    <h1 class="heading">our menu</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="price">$<span>2</span>/-</div>
+            <img src="image/pizza-1.jpg" alt="">
+            <div class="name">pizza 1</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>4</span>/-</div>
+            <img src="image/pizza-2.jpg" alt="">
+            <div class="name">pizza 2</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>2</span>/-</div>
+            <img src="image/pizza-3.jpg" alt="">
+            <div class="name">pizza 3</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>3</span>/-</div>
+            <img src="image/pizza-4.jpg" alt="">
+            <div class="name">pizza 4</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>2</span>/-</div>
+            <img src="image/pizza-5.jpg" alt="">
+            <div class="name">pizza 5</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>4</span>/-</div>
+            <img src="image/pizza-6.jpg" alt="">
+            <div class="name">pizza 6</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>2</span>/-</div>
+            <img src="image/pizza-7.jpg" alt="">
+            <div class="name">pizza 7</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>3</span>/-</div>
+            <img src="image/pizza-8.jpg" alt="">
+            <div class="name">pizza 8</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="price">$<span>4</span>/-</div>
+            <img src="image/pizza-9.jpg" alt="">
+            <div class="name">pizza 9</div>
+            <form action="" method="post">
+                <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section selesai -->
+
+<!-- order section mulai -->
+
+<!-- order section selesai -->
+
+
+
+
+
+
+
+
+
+
 
 
 
